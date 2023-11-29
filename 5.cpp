@@ -14,7 +14,7 @@ int main() {
 
 
     std::vector<int> miVector = {1, 2, 3, 4, 5};
-    
+
     std::cout << "Cuadrados de los números en el vector: ";
     std::for_each(miVector.begin(), miVector.end(), [](int& x) { x = x * x; });
 
@@ -22,4 +22,9 @@ int main() {
         std::cout << val << " ";
     }
     std::cout << std::endl;
+    
+    std::unique_ptr<int> ptr = std::make_unique<int>(10);
+    std::cout << "Valor almacenado en el puntero inteligente: " << *ptr << std::endl;
 
+    return 0;
+}
