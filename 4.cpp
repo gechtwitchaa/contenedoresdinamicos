@@ -15,7 +15,7 @@ int main() {
 
     std::valarray<double> division = valArray1 / valArray2;
 
-   
+
     std::cout << "Suma: ";
     for (auto val : suma) {
         std::cout << val << " ";
