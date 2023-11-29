@@ -12,7 +12,7 @@ int main() {
         std::cout << num << " ";
     }
     std::cout << std::endl;
-    
+
     auto maxElement = std::max_element(miVector.begin(), miVector.end());
 
     if (maxElement != miVector.end()) {
