@@ -22,7 +22,7 @@ int main() {
         std::cout << val << " ";
     }
     std::cout << std::endl;
-    
+
     std::unique_ptr<int> ptr = std::make_unique<int>(10);
     std::cout << "Valor almacenado en el puntero inteligente: " << *ptr << std::endl;
 
