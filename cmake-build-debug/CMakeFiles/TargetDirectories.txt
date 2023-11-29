@@ -1,0 +1,3 @@
+C:/Users/alber_wzgn3ys/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/contenedoresdinamicos.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/contenedoresdinamicos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
