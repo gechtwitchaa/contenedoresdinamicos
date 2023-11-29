@@ -20,7 +20,7 @@ int main() {
         miPila.push(5.0);
         miPila.push(10.0);
         miPila.push(15.0);
-        
+
     std::cout << "Contenido de la pila después de push:" << std::endl;
     while (!miPila.empty()) {
         std::cout << miPila.top() << " ";
