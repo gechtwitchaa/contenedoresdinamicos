@@ -8,4 +8,12 @@ int main() {
 
     std::stack<double, std::list<double>> miPila(miLista);
 
-   
+
+    std::cout << "Contenido inicial de la pila:" << std::endl;
+    while (!miPila.empty()) {
+        std::cout << miPila.top() << " ";
+        miPila.pop();
+    }
+    std::cout << std::endl;
+
+  
