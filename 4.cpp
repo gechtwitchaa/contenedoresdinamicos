@@ -14,3 +14,31 @@ int main() {
     std::valarray<double> multiplicacion = valArray1 * valArray2;
 
     std::valarray<double> division = valArray1 / valArray2;
+
+   
+    std::cout << "Suma: ";
+    for (auto val : suma) {
+        std::cout << val << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Resta: ";
+    for (auto val : resta) {
+        std::cout << val << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Multiplicacion: ";
+    for (auto val : multiplicacion) {
+        std::cout << val << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Division: ";
+    for (auto val : division) {
+        std::cout << val << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
