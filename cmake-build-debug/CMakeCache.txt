@@ -14,6 +14,21 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+BoostExample_BINARY_DIR:STATIC=C:/Users/alber_wzgn3ys/Documents/GitHub/contenedoresdinamicos/cmake-build-debug
+
+//Value Computed by CMake
+BoostExample_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+BoostExample_SOURCE_DIR:STATIC=C:/Users/alber_wzgn3ys/Documents/GitHub/contenedoresdinamicos
+
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=Boost_DIR-NOTFOUND
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=Boost_INCLUDE_DIR-NOTFOUND
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/addr2line.exe
 
@@ -157,7 +172,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=contenedoresdinamicos
+CMAKE_PROJECT_NAME:STATIC=BoostExample
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2023.2.2/bin/mingw/bin/ranlib.exe
@@ -253,6 +268,10 @@ contenedoresdinamicos_SOURCE_DIR:STATIC=C:/Users/alber_wzgn3ys/Documents/GitHub/
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Boost_INCLUDE_DIR
+Boost_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -405,6 +424,16 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_STRIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Last used BOOST_ROOT value.
+_BOOST_ROOT_LAST:INTERNAL=6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e
+//Components requested for this build tree.
+_Boost_COMPONENTS_SEARCHED:INTERNAL=
+//Last used Boost_INCLUDE_DIR value.
+_Boost_INCLUDE_DIR_LAST:INTERNAL=Boost_INCLUDE_DIR-NOTFOUND
+//Last used Boost_NAMESPACE value.
+_Boost_NAMESPACE_LAST:INTERNAL=boost
+//Last used Boost_USE_MULTITHREADED value.
+_Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

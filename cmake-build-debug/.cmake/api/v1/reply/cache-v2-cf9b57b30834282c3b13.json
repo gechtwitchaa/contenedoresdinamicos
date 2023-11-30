@@ -2,6 +2,74 @@
 	"entries" : 
 	[
 		{
+			"name" : "BoostExample_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/alber_wzgn3ys/Documents/GitHub/contenedoresdinamicos/cmake-build-debug"
+		},
+		{
+			"name" : "BoostExample_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "BoostExample_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/alber_wzgn3ys/Documents/GitHub/contenedoresdinamicos"
+		},
+		{
+			"name" : "Boost_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Boost."
+				}
+			],
+			"type" : "PATH",
+			"value" : "Boost_DIR-NOTFOUND"
+		},
+		{
+			"name" : "Boost_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "Boost_INCLUDE_DIR-NOTFOUND"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -875,7 +943,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "contenedoresdinamicos"
+			"value" : "BoostExample"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1252,6 +1320,66 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "_BOOST_ROOT_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used BOOST_ROOT value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e"
+		},
+		{
+			"name" : "_Boost_COMPONENTS_SEARCHED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Components requested for this build tree."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "_Boost_INCLUDE_DIR_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_INCLUDE_DIR value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Boost_INCLUDE_DIR-NOTFOUND"
+		},
+		{
+			"name" : "_Boost_NAMESPACE_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_NAMESPACE value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "boost"
+		},
+		{
+			"name" : "_Boost_USE_MULTITHREADED_LAST",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Last used Boost_USE_MULTITHREADED value."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
